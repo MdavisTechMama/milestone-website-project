@@ -1,0 +1,201 @@
+/*** GRID ***/
+
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width: 700px;
+  float: left;
+}
+
+.third-width {
+  width: 466px;
+  float: left;
+}
+
+/*** Header ***/
+
+header {
+  height: 800px;
+  background: url('../img/hero-image.png');
+  background-size: cover;
+  width: 1400px;
+  display: inline-block;
+}
+
+header h1 {
+  color: #095256;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 360px;
+}
+
+header h2 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 45px;
+  text-align: center;
+}
+
+
+/*** PORTFOLIO ***/
+
+#portfolio {
+  color: #095256;
+  margin: 0 auto;
+}
+
+.rogue {
+  float: right;
+  margin: 0px 342px 0px 0px;
+}
+
+.jubilee {
+  float: none;
+  margin: 0px 475px 0px 0px;
+}
+
+.holstee{
+  float: right;
+  margin: 0px 505px 0px 0px;
+}
+
+#portfolio img {
+  width: 450px;
+  height: 275px;
+  margin-left: 150px;
+}
+
+#portfolio h3 {
+  color: #095256;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+#portfolio span {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 25px;
+  color: black;
+  text-align: left;
+}
+ #portfolio h4 {
+ font-family: 'Barlow Condensed', sans-serif;
+ font-size: 25px;
+ color: black;
+ text-align: left;
+}
+
+#portfolio p {
+  color: #095256;
+  font-family:'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  float: right;
+  line-height: 30px;
+  text-align: left;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
+/*** ABOUT ME ***/
+
+#about-me {
+  background: #087e8b;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+#about-me h3 {
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 60px;
+}
+
+#about-me h4 {
+  float: left;
+  font-size: 28px;
+  font-family: 'Homemade Apple', cursive;
+}
+
+#about-me p {
+  color: #ffffff;
+  float: left;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 25px;
+  line-height: 48px;
+  text-align: left;
+  margin: 0 auto;
+  padding-right: 100px;
+}
+
+#about-me img {
+  float: left;
+  height: 400px;
+  width: 290px;
+  margin: 0 auto;
+  padding: 50px 50px 100px 150px;
+}
+
+/*** CONNECT ***/
+
+#connect {
+  background: #095156;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+#connect h3 {
+  color: #ffffff;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 45px;
+  text-align: center;
+}
+
+#connect .third-width h4 {
+  color: #bfff00;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#connect a {
+  color: #ffffff;
+  padding: 140px;
+  padding-bottom: 0px;
+}
+
+#connect a,
+#connect img,
+#connect p {
+  text-align: center;
+}
+
+#connect img {
+  padding-left: 60px;
+}
+
+#connect p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  line-height: 20px;
+}
+
+/*** FOOTER ***/
+
+footer{
+  background: #095156;
+}
+
+footer h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+}
